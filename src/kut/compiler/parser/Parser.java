@@ -249,6 +249,7 @@ public class Parser
 			AstNode binop = new AstBinOp(lhs, rhs, t);
 			lhs = binop;
 		}
+		
 		return lhs;
 	}
 	
