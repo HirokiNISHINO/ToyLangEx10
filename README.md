@@ -9,9 +9,9 @@ Toy Programming Language: Ex10
 
 \<Statements\> ::= [\<Statement\>]\*
 
-\<Statement\> :: = \<ExprStmt>　| \<EmptyStmt\> | \<Global\>
+\<Statement\> :: = \<ExprStmt>　| \<EmptyStmt\> | \<GlobalVarDec\>
 
-\<Global\> ::= 'global' \<Type\> Identifier ';'
+\<GlobalVarDec\> ::= 'global' \<Type\> Identifier ';'
 
 \<Type\> ::= 'int'
 
